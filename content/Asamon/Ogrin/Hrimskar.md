@@ -20,50 +20,43 @@
 
 ## Geography
 
-**Climate**
-
-- Long freezing winters
-- Powerful blizzards
-- Very short summers
-- Deadly Thunderstorms
-
-**Terrain**
-
-- Frozen valleys
-- Snow-covered mountains
-- Glacial rivers
-- Rocky tundra
-
-**Natural Resources**
-
-- Iron
-- Precious gemstones
-- Mammoth ivory
-- Furs
-- Rare alpine herbs
-
-**Notable Landmarks**
-
-- The Worldspine Mountains.
-- Ancient giant ruins.
-- Frozen waterfalls.
-- Sacred peaks.
+- **Climate**:
+	- Long freezing winters
+	- Powerful blizzards
+	- Very short summers
+	- Deadly Thunderstorms
+- **Terrain**:
+	- Frozen valleys
+	- Snow-covered mountains
+	- Glacial rivers
+	- Rocky tundra
+- **Natural Resources**:
+	- Iron
+	- Precious gemstones
+	- Mammoth ivory
+	- Furs
+	- Rare alpine herbs
+- **Notable Landmarks**
+	- The Worldspine Mountains.
+	- Ancient giant ruins.
+	- Frozen waterfalls.
+	- Sacred peaks.
   
 ## History
 
-- Founding: 
+- **Founding:** 
 	- Descendants of ancient giants settled the southern tundra long before recorded history.
-- Major Historical Events: 
-	- Slayed the great dragon Ironbreath that long dominated the region, and birthing a new craft using parts of its dead body, local iron and 
-- Current Situation: 
+- **Major Historical Events:** 
+	- Slayed the great dragon Ironbreath that long dominated the region, and birthing a new craft using parts of its dead body, local iron and
+- **Current Situation:** 
 
 ## Government & Military
 
-- Political Structure: 
+- **Political Structure:** 
 	- Independent tribes united through a council of chieftains.
 - Military Overview: 
 	- Every tribe contributes warriors when needed.
-- Laws or Unique Customs:
+- **Laws or Unique Customs:**
 	- Hospitality is sacred beneath **the Flame**.
 	- Oaths sworn upon **the Mountain** are never broken.
 	- Every goliath must face a personal trial beneath **the Storm** before being recognised as an adult.
@@ -83,7 +76,7 @@
 	- Weapons
 	- Gemstones
 	- Furs
-- Imports:
+-  Major Imports:
 	- Grain
 	-  Timber
 	- Alcohol 
@@ -91,6 +84,7 @@
 	- [[Stanosta]]
 	- [[Stolan]]
 	- [[Vibet]]
+	- [[Khazrim]]
 
 ## Culture
 

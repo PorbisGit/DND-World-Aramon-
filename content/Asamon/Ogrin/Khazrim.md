@@ -1,7 +1,7 @@
 
 ## Basic Information
 
-**Name:** Khazrim
+**Name:** [[Khazrim]]
 
 **Government:** High Kingdom
 
@@ -73,25 +73,37 @@
 	- Engineering
 	- Stoneworking
 	- Brewing
-- Major Exports/Imports:
+- Major Exports
 	- Mastercrafted weapons
 	- Armour
 	- Fine tools
 	- Gemstones
-- Trade Partners:
+-  Major Imports:
 	- Food
 	- Timber
 	- Exotic materials
+- Trade Partners:
+	- [[Stanosta]]
+	- [[Stolan]]
+	- [[Vibet]]
+	- [[Hrimskar]]
+
 
 ## Culture
 
 - Values:
-- Traditions/Festivals:
+	- Legacy, craftsmanship, duty, perseverance, and honour.
+- Traditions/Festivals
+	- Every dwarf records their lineage.
+	- Weapons are passed through generations.
+	- Clan feasts honour both the living and the dead.
+	- Young dwarves undertake a journey into the Stoneways.
 - Everyday Life
-  
+	- Daily life revolves around family, clan, and craft. A dwarf's reputation is earned through the quality of their work and the legacy they leave behind, whether through their creations, their service, or the family they raise.
 ## Diplomacy
-
+ 
 - Allies:
-- Rivals:
-- Current Conflicts:
+- Rivals: Other Dwavern Nations/Factions that occupy the Stoneways
+- Current Conflicts: 
+	- While expeditions continue to reclaim the Stoneways, growing political tension exists between traditionalists seeking to restore the old empire and reformists who believe dwarfkind must abandon its obsession with the past.
 
