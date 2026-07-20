@@ -1,3 +1,388 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* =========================================================
+   ASAMON — DARK FANTASY QUARTZ THEME
+   Add this to: quartz/styles/custom.scss
+   ========================================================= */
+
+/* ---------- Global page styling ---------- */
+
+body {
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(112, 79, 35, 0.08),
+      transparent 32rem
+    ),
+    var(--light);
+}
+
+.page {
+  min-height: 100vh;
+}
+
+/* Subtle parchment grain effect */
+.page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.035;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      rgba(70, 45, 20, 0.6) 4px
+    );
+}
+
+/* ---------- Main article ---------- */
+
+.center article {
+  padding: 2rem 2.5rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--light) 96%, var(--secondary) 4%);
+  box-shadow:
+    0 8px 30px rgba(20, 14, 8, 0.12),
+    inset 0 0 24px rgba(115, 80, 40, 0.025);
+}
+
+@media all and (max-width: 800px) {
+  .center article {
+    padding: 1.25rem;
+    border-radius: 6px;
+  }
+}
+
+/* ---------- Site title ---------- */
+
+.page-title {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.page-title a {
+  color: var(--dark);
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* ---------- Headings ---------- */
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: var(--dark);
+  letter-spacing: 0.025em;
+}
+
+article h1 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 2px solid var(--secondary);
+  font-size: 2.4rem;
+}
+
+article h1::after {
+  content: " ◆";
+  color: var(--secondary);
+  font-size: 0.55em;
+  vertical-align: middle;
+}
+
+article h2 {
+  margin-top: 2.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+article h3 {
+  color: var(--secondary);
+}
+
+/* ---------- Paragraphs and lists ---------- */
+
+article p,
+article li {
+  line-height: 1.75;
+}
+
+article ul,
+article ol {
+  padding-left: 1.6rem;
+}
+
+article li::marker {
+  color: var(--secondary);
+}
+
+/* ---------- Links ---------- */
+
+article a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+article a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Internal links */
+a.internal {
+  padding: 0.05rem 0.2rem;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--secondary) 9%, transparent);
+}
+
+/* ---------- Sidebars ---------- */
+
+.sidebar {
+  font-size: 0.95rem;
+}
+
+.sidebar.left,
+.sidebar.right {
+  background: color-mix(in srgb, var(--light) 97%, var(--secondary) 3%);
+}
+
+.explorer {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 0.75rem;
+}
+
+.explorer-content ul {
+  border-left: 1px solid var(--lightgray);
+}
+
+.explorer-content a {
+  border-radius: 4px;
+}
+
+.explorer-content a:hover {
+  background: color-mix(in srgb, var(--secondary) 10%, transparent);
+}
+
+/* ---------- Search ---------- */
+
+.search > .search-button {
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--light) 95%, var(--secondary) 5%);
+}
+
+.search > .search-button:hover {
+  border-color: var(--secondary);
+}
+
+/* ---------- Blockquotes ---------- */
+
+blockquote {
+  position: relative;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem 1rem 1.5rem;
+  border-left: 4px solid var(--secondary);
+  border-radius: 0 7px 7px 0;
+  background: color-mix(in srgb, var(--secondary) 7%, var(--light));
+  font-style: italic;
+}
+
+blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -0.3rem;
+  left: 0.35rem;
+  color: var(--secondary);
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  opacity: 0.28;
+}
+
+/* ---------- Horizontal rules ---------- */
+
+article hr {
+  overflow: visible;
+  height: 1px;
+  margin: 2.5rem auto;
+  border: 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--secondary),
+    transparent
+  );
+}
+
+article hr::after {
+  content: "✦";
+  position: relative;
+  top: -0.75rem;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 0 0.75rem;
+  color: var(--secondary);
+  background: var(--light);
+}
+
+/* ---------- Tables ---------- */
+
+article table {
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid var(--lightgray);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 7px;
+}
+
+article th {
+  padding: 0.75rem;
+  color: var(--dark);
+  background: color-mix(in srgb, var(--secondary) 15%, var(--light));
+}
+
+article td {
+  padding: 0.7rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+article tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--secondary) 3%, transparent);
+}
+
+/* ---------- Images ---------- */
+
+article img {
+  border: 1px solid var(--lightgray);
+  border-radius: 7px;
+  box-shadow: 0 6px 18px rgba(20, 14, 8, 0.16);
+}
+
+/* ---------- Code blocks ---------- */
+
+pre {
+  border: 1px solid var(--lightgray);
+  border-radius: 7px;
+  box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.08);
+}
+
+code {
+  border-radius: 3px;
+}
+
+/* ---------- Tags ---------- */
+
+a.tag-link {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--secondary) 8%, var(--light));
+}
+
+a.tag-link:hover {
+  border-color: var(--secondary);
+}
+
+/* ---------- Backlinks ---------- */
+
+.backlinks {
+  padding-top: 1rem;
+  border-top: 1px solid var(--lightgray);
+}
+
+/* ---------- Popover previews ---------- */
+
+.popover {
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(15, 10, 5, 0.24);
+}
+
+/* ---------- Callouts ---------- */
+
+.callout {
+  overflow: hidden;
+  border-width: 1px;
+  border-radius: 7px;
+  box-shadow: 0 4px 14px rgba(20, 14, 8, 0.08);
+}
+
+.callout-title {
+  letter-spacing: 0.03em;
+}
+
+/* Custom D&D callouts */
+
+.callout[data-callout="lore"] {
+  --color: #9a6a32;
+  --border: #9a6a32;
+  --bg: rgba(154, 106, 50, 0.1);
+}
+
+.callout[data-callout="npc"] {
+  --color: #9a6a24;
+  --border: #9a6a24;
+  --bg: rgba(154, 106, 36, 0.1);
+}
+
+.callout[data-callout="location"] {
+  --color: #465f8a;
+  --border: #465f8a;
+  --bg: rgba(70, 95, 138, 0.1);
+}
+
+.callout[data-callout="danger"] {
+  --color: #9b3f3f;
+  --border: #9b3f3f;
+  --bg: rgba(155, 63, 63, 0.11);
+}
+
+.callout[data-callout="quest"] {
+  --color: #7d5997;
+  --border: #7d5997;
+  --bg: rgba(125, 89, 151, 0.1);
+}
+
+.callout[data-callout="secret"] {
+  --color: #6a6377;
+  --border: #6a6377;
+  --bg: rgba(106, 99, 119, 0.12);
+}
+
+.callout[data-callout="rule"] {
+  --color: #806d3d;
+  --border: #806d3d;
+  --bg: rgba(128, 109, 61, 0.11);
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--lightgray);
+  opacity: 0.8;
+}
+
+/* ---------- Dark mode adjustments ---------- */
+
+[saved-theme="dark"] .center article {
+  background: color-mix(in srgb, var(--light) 94%, #9f743d 6%);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.34),
+    inset 0 0 30px rgba(199, 151, 80, 0.025);
+}
+
+[saved-theme="dark"] article hr::after {
+  background: var(--light);
+}
+
+[saved-theme="dark"] article img {
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.4);
+}
