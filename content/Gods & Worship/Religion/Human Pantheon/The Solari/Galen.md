@@ -1,0 +1,1 @@
+God of Love, Fertility, and Nature. Son of Ori. Married to Dravaryn.

@@ -1,0 +1,3 @@
+- Ambition
+- Perfection
+- Power

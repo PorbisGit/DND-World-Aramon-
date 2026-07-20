@@ -1,0 +1,3 @@
+- Tyranny
+- Domination
+- Control

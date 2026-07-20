@@ -1,0 +1,1 @@
+Goddess of Beasts, Courage and Protection. Married to Galen

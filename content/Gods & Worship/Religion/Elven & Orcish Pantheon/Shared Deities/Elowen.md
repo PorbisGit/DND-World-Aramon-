@@ -1,0 +1,1 @@
+Goddess of Life, Healing, Renewal, Growth

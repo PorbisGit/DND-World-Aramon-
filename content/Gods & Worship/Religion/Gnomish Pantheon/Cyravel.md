@@ -1,0 +1,1 @@
+Goddess of Stars, Astronomy, and Knowledge

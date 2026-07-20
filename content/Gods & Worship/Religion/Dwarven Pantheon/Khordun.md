@@ -1,0 +1,1 @@
+The First King Leadership, unity, duty, honour

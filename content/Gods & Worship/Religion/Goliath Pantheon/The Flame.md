@@ -1,0 +1,1 @@
+life, community, courage, perseverance

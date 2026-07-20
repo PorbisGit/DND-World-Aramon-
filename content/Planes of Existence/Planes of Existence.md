@@ -1,0 +1,5 @@
+[[Core Planes]]
+[[Intermediate Planes]]
+[[Inner Planes]]
+[[Outer Planes]]
+[[Demiplanes]]

@@ -1,0 +1,1 @@
+Freedom, rebellion, strength, unity
