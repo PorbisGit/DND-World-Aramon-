@@ -1,8 +1,8 @@
-'m using a large amount regular dnd lore to explain deities because it's mostly the same thing with a few minor changes.*
+I'm using a large amount regular dnd lore to explain deities because it's mostly the same thing with a few minor changes.*
 
 ## Overview
 
-Deities are beings of immense power
+*Deities are powerful divine beings that embody ideals, forces or aspects of existence. Throughout history they have shaped the world through their influence, granting power to devoted followers and inspiring countless faiths, cultures and civilisations. While many are worshipped as benevolent protectors or feared as destructive powers, divinity itself is neither inherently good nor evil.*
 
 ## Rankings 
 

@@ -10,13 +10,9 @@
 
 **Religious Symbol:**
 
----
-
 ## Overview
 
 _A brief description of how this culture views the gods and their place in the world._
-
----
 
 ## Beliefs
 
@@ -29,8 +25,6 @@ _A brief description of how this culture views the gods and their place in the w
 
 **View of Life and Death:**
 
----
-
 ## Worship
 
 **Common Practices:**
@@ -41,12 +35,9 @@ _A brief description of how this culture views the gods and their place in the w
 
 **Places of Worship:**
 
----
 ## Deity Names
 
-
----
-
+- 
 ## Religious Organization
 
 **Leaders:**
@@ -54,8 +45,6 @@ _A brief description of how this culture views the gods and their place in the w
 **Ranks/Titles:**
 
 **Important Groups:**
-
----
 
 ## Relationship With Society
 
