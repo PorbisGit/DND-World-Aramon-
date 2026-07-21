@@ -1,4 +1,4 @@
-# ## Basic Information
+## Basic Information
 
 **Name:** [[Stolan]]
 
