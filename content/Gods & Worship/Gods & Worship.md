@@ -4,7 +4,6 @@
 
 Deities are beings of immense power
 
----
 ## Rankings 
 
 Deities were ranked in increasing divine power from the so-called quasi deity up to overdeity. The two factors to determine the strength of a deity were numbers and the devotion of its followers. So it was possible for deities with a small follower base to have a higher standing, when the said followers consisted of fanatics.

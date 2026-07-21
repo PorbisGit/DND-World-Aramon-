@@ -1,5 +1,5 @@
 
 
 A great threat rises on the continent of Fervaar. Tribes of the Fractured Ones are creating what can only be described as "wounds" in the world, tearing open the barrier between the living and the ethereal. From these scars, the dead emerge, draining the famously abundant life from the wilds and leaving once-vibrant lands barren and silent. Fervaar is an untamed frontier, secluded from the world's dominant races and shaped by dead gods long forgotten elsewhere. It is home to dense forests, barren wastelands, and ruined holy sites to the old pantheon. Whether Fervaar is your home or a distant land you've been drawn to, the threat posed by the Fractured Ones cannot be ignored. Their actions endanger not only the continent but the Material Plane itself. The source of their power remains unknown, and rumours speak of darker forces guiding them from beyond the veil. This campaign is about travelling through harsh wilds, the occasional digging into old ruins, and dealing with the various tribes and colonies. Expect survival challenges, fights with cultists, undead, and strange beasts, and a lot of time just trying to stay alive in a land that doesn’t really want you there.
-[[Dragonborns]]
+[[Dragonborn]]
 [[Asamon]]
