@@ -6,7 +6,7 @@
 
 **Location:** [[Stolan]]
 
-**Leader(s):** Grand Chancellor *(Placeholder)*
+**Leader(s):** Grand Chancellor
 
 **Associated Culture/Race:** Primarily Humans
 

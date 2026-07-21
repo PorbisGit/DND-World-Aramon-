@@ -6,7 +6,7 @@
 
 **Location:** [[Stolan]]
 
-**Leader(s):** High Pontiff *(Placeholder)*
+**Leader(s):** High Pontiff 
 
 **Associated Culture/Race:** Primarily [[Humans]]
 

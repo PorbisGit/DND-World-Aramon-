@@ -69,7 +69,6 @@ _That age of stability has begun to fracture. The death of the King of [[Stolan]
 - Manticores
 - Harpies
 - Dragons
-- Demons
 
 **Unique Creatures:**
 
